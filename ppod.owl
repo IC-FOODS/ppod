@@ -1,0 +1,2371 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://asi.ice.ucdavis.edu/sustsource/ppod.owl#"
+     xml:base="http://asi.ice.ucdavis.edu/sustsource/ppod.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:vitro="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://asi.ice.ucdavis.edu/sustsource/schemas/ppod.owl#">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label>example of usage</rdfs:label>
+        <rdfs:label xml:lang="en">example of usage</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label>has curation status</rdfs:label>
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label>editor note</rdfs:label>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <rdfs:label xml:lang="en">curator note</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source">
+        <rdfs:label>Source</rdfs:label>
+        <rdfs:label xml:lang="en-us">Source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion">
+        <rdfs:label xml:lang="en">Has Version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://vitro.mannlib.cornell.edu/ns/vitro/0.7#descriptionAnnot -->
+
+    <owl:AnnotationProperty rdf:about="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#descriptionAnnot"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+        <rdfs:label>is defined by</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example">
+        <rdfs:label xml:lang="en">example</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote">
+        <rdfs:label xml:lang="en">scope note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/page -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/page"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dev.poderopedia.com/vocab/hasMainSector -->
+
+    <owl:ObjectProperty rdf:about="http://dev.poderopedia.com/vocab/hasMainSector">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dev.poderopedia.com/vocab/schema</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Has main sector</rdfs:label>
+        <rdfs:label xml:lang="es">Sector principal</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dev.poderopedia.com/vocab/hasOtherSector -->
+
+    <owl:ObjectProperty rdf:about="http://dev.poderopedia.com/vocab/hasOtherSector">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dev.poderopedia.com/vocab/schema</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Secondary sector</rdfs:label>
+        <rdfs:label xml:lang="es">Sector secundario</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000111 xml:lang="en">occurs in</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">b occurs_in c =def b is a process and c is a material entity or immaterial entity&amp; there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.&amp; forall(t) if b exists_at t then c exists_at t &amp; there exist spatial regions s and s’ where &amp; b spatially_projects_onto s at t&amp; c is occupies_spatial_region s’ at t&amp; s is a proper_continuant_part_of s’ at t</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">occurs_in</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">unfolds in</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">unfolds_in</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+        <rdfs:comment>Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">occurs in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0000029 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ERO_0000029">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An access service that provides access to a flow cytometer.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instruments, reagents, organisms, or software for which the service provides access.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">change the domain tye to access service</rdfs:comment>
+        <rdfs:label xml:lang="en">provides access to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000111 xml:lang="en">participates in</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this blood clot participates in this blood coagulation</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this input material (or this output material) participates in this process</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">participates_in</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro/releases/2018-10-19/ro.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">participates in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000111 xml:lang="en">has participant</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this blood coagulation has participant this blood clot</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this investigation has participant this investigator</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this process has participant this input material (or this output material)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a process and a continuant, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">has_participant</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro/releases/2018-10-19/ro.owl</obo:IAO_0000412>
+        <dc:source>http://www.obofoundry.org/ro/#OBO_REL:has_participant</dc:source>
+        <rdfs:label xml:lang="en">has participant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000081 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000081">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000112 xml:lang="en">this investigator role is a role of this person</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">is role of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">role_of</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro/releases/2018-10-19/ro.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">role of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000112 xml:lang="en">this person has role this investigator role (more colloquially: this person has this role of investigator)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">has_role</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro/releases/2018-10-19/ro.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">has role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000112 xml:lang="en">this cell derives from this parent cell (cell division)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this nucleus derives from this parent nucleus (nuclear division)</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This is a very general relation. More specific relations are preferred when applicable, such as &apos;directly develops from&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">derives_from</obo:IAO_0000118>
+        <obo:IAO_0000232>This relation is taken from the RO2005 version of RO. It may be obsoleted and replaced by relations with different definitions. See also the &apos;develops from&apos; family of relations.</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro/releases/2018-10-19/ro.owl</obo:IAO_0000412>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
+        <rdfs:label xml:lang="en">derives from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001001">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000112 xml:lang="en">this parent cell derives into this cell (cell division)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this parent nucleus derives into this nucleus (nuclear division)</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">a relation between two distinct material entities, the old entity and the new entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This is a very general relation. More specific relations are preferred when applicable, such as &apos;directly develops into&apos;. To avoid making statements about a future that may not come to pass, it is often better to use the backward-looking &apos;derives from&apos; rather than the forward-looking &apos;derives into&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">derives_into</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro/releases/2018-10-19/ro.owl</obo:IAO_0000412>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
+        <rdfs:label xml:lang="en">derives into</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001015 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001015">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000111 xml:lang="en">is location of</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my head is the location of my brain</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this cage is the location of this rat</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between two independent continuants, the location and the target, in which the target is entirely within the location</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">location_of</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <rdfs:label xml:lang="en">location of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001025 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000111 xml:lang="en">located in</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my brain is located in my head</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this rat is located in this cage</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between two independent continuants, the target and the location, in which the target is entirely within the location</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">located_in</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <dc:source>http://www.obofoundry.org/ro/#OBO_REL:located_in</dc:source>
+        <rdfs:label xml:lang="en">located in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002234 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002234">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000118>produces</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro/releases/2018-10-19/ro.owl</obo:IAO_0000412>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
+        <rdfs:label xml:lang="en">has output</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002353 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002353">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000115>inverse of has output</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro/releases/2018-10-19/ro.owl</obo:IAO_0000412>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/RO_0002259"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
+        <rdfs:label xml:lang="en">output of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002434 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002434">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000115>A relationship that holds between two entities in which the processes executed by the two entities are causally connected.</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Considering relabeling as &apos;pairwise interacts with&apos;</obo:IAO_0000116>
+        <obo:IAO_0000116>This relation and all sub-relations can be applied to either (1) pairs of entities that are interacting at any moment of time (2) populations or species of entity whose members have the disposition to interact (3) classes whose members have the disposition to interact.</obo:IAO_0000116>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000232>Note that this relationship type, and sub-relationship types may be redundant with process terms from other ontologies. For example, the symbiotic relationship hierarchy parallels GO. The relations are provided as a convenient shortcut. Consider using the more expressive processual form to capture your data. In the future, these relations will be linked to their cognate processes through rules.</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro/releases/2018-10-19/ro.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym>in pairwise interaction with</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
+        <rdfs:label>interacts with</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/MI_0914</rdfs:seeAlso>
+        <foaf:page rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/oborel/obo-relations/wiki/InteractionRelations</foaf:page>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002461 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002461">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000232>Experimental: relation used for defining interaction relations. An interaction relation holds when there is an interaction event with two partners. In a directional interaction, one partner is deemed the subject, the other the target</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro/releases/2018-10-19/ro.owl</obo:IAO_0000412>
+        <rdfs:label>partner in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003000">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix.</obo:IAO_0000115>
+        <obo:IAO_0000117>Melissa Haendel</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro/releases/2018-10-19/ro.owl</obo:IAO_0000412>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note that this definition doesn&apos;t quite distinguish the output of a transformation process from a production process, which is related to the identity/granularity issue.</rdfs:comment>
+        <rdfs:label xml:lang="en">produces</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003001">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>a produced_by b iff some process that occurs_in b has_output a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Melissa Haendel</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro/releases/2018-10-19/ro.owl</obo:IAO_0000412>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
+        <rdfs:label xml:lang="en">produced by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/contributor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">contributor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/coverage -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/coverage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
+        <terms:description xml:lang="en">Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.</terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#coverageT-001"/>
+        <rdfs:comment xml:lang="en">The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Coverage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/license">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#license-002"/>
+        <rdfs:comment xml:lang="en">A legal document giving official permission to do something with the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">License</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/spatial -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/spatial">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/coverage"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#spatial-003"/>
+        <rdfs:comment xml:lang="en">Spatial characteristics of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Spatial Coverage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/temporal -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/temporal">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/coverage"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#temporal-003"/>
+        <rdfs:comment xml:lang="en">Temporal characteristics of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Temporal Coverage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#affiliatedOrganization -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#affiliatedOrganization">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">has affiliated organization</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#distributesFundingFrom -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#distributesFundingFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For example, National Science Foundation providesFundingThrough Graduate Research Fellowship Program; National Institutes of Health providesFundingThrough National Center for Research Resources. </vitro:descriptionAnnot>
+        <rdfs:label xml:lang="en">distributes funding from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#fundingVehicleFor -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#fundingVehicleFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">provides funding for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#governingAuthorityFor -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#governingAuthorityFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">governing authority for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#hasCollaborator -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasCollaborator">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">has collaborator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#hasFundingVehicle -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasFundingVehicle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">funding provided via</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#hasGoverningAuthority -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasGoverningAuthority">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">governing authority</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#hasPredecessorOrganization -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasPredecessorOrganization">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">predecessor organization</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#hasSubjectArea -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasSubjectArea">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">has subject area</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#hasSuccessorOrganization -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#hasSuccessorOrganization">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">successor organization</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#providesFundingThrough -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#providesFundingThrough">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For example, National Science Foundation providesFundingThrough Graduate Research Fellowship Program; National Institutes of Health providesFundingThrough National Center for Research Resources. </obo:IAO_0000112>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">provides funding through</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#roleContributesTo -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#roleContributesTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">contributes to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#supportedBy -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#supportedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general relationship of support</vitro:descriptionAnnot>
+        <rdfs:label xml:lang="en">supported by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#supports -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#supports">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general relationship of support</vitro:descriptionAnnot>
+        <rdfs:label xml:lang="en">supports</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/scientific-research#accessProvidedBy -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/scientific-research#accessProvidedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">access provided by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000154 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000154">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-21T00:06:47Z</dc:date>
+        <rdfs:comment>Upper-level property to link especially persons and organizations with subject domains, activities, and issues. Gets subdivided using the Harry Collins Periodic Table of Expertises.</rdfs:comment>
+        <rdfs:label>has expertise in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000209 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000209">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000154"/>
+        <obo:IAO_0000115>A personal quality that is a capacity to turn latent interactional expertise into expressed interactional expertise.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T21:16:45Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has disposition towards</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000210 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000210">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000209"/>
+        <obo:IAO_0000115>A personal quality of having the skills needed to interact with others.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T21:17:00Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has interactive ability at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000211 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000211">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000209"/>
+        <obo:IAO_0000115>A personal quality of being able to reflect deeply about a domain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T21:17:21Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has reflective ability at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000212 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000212">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000154"/>
+        <obo:IAO_0000115>Specialist expertise is expertise that only some members of a society possess.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has specialist expertise in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000213 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000213">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000212"/>
+        <obo:IAO_0000115>Ubiquitous tacit knowledge is knowledge built upon understanding that is common across a society but cannot be expressed in words.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has ubiquitous tacit knowledge of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000214 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000214">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000213"/>
+        <obo:IAO_0000115>Knowledge of a fact that does not allow one to do much more with it than restate it. &quot;Beer-mat knowledge&quot; refers to the sort of trivia that might be printed on a beer mat.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has beer-mat knowledge of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000215 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000215">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000213"/>
+        <obo:IAO_0000115>Knowledge of a scientific or academic domain that is gathered from mass media or popular books.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has popular understanding of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000216 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000216">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000213"/>
+        <obo:IAO_0000115>Knowledge that comes from reading primary or quasi-primary source literature.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has primary source knowledge of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000217 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000217">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000212"/>
+        <obo:IAO_0000115>Specialist tacit knowledge is knowledge of a specialized domain that cannot be expressed in words.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has specialist tacit knowledge of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000218 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000218">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000217"/>
+        <obo:IAO_0000115>Interactional expertise is expertise in the language of a specialism in the absence of expertise in its practice.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has interactional expertise in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000219 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000219">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000217"/>
+        <obo:IAO_0000115>Contributory expertise is that which enables one to contribute to the domain to which the expertise pertains: contributory experts have the ability to do things within the domain of expertise.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has contributory expertise in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000220 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000220">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000154"/>
+        <obo:IAO_0000115>Meta-expertises are expertises used to judge other expertises.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has meta-expertise in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000221 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000221">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000220"/>
+        <obo:IAO_0000115>External meta-expertise does not depend on an acquaintance of the substance of the expertise under judgment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has external meta-expertise in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000222 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000222">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000221"/>
+        <obo:IAO_0000115>Ubiquitous discrimination is a type of judgment of expertise which is acquired as part-and-parcel of living in a society. It often involves social understanding of the social and cognitive networks from which a claim of expertise originates.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has ubiquitous discrimination in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000223 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000223">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000221"/>
+        <obo:IAO_0000115>Local discrimination is judgment of expertise based upon localized understanding of the social and geographical context of a domain of interest.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has local discrimination in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000224 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000224">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000220"/>
+        <obo:IAO_0000115>Internal meta-expertise is a capacity to judge expertise that depends upon acquaintance with the substance of the expertise being judged.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has internal meta-expertise in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000225 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000225">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000224"/>
+        <obo:IAO_0000115>Technical connoisseurship is a type of judgment of expertise that depends upon having knowledge of the expertise under judgment, but not at the level of a practitioner. For instance, an art critic or a wine buff may not themselves be an artist or a winemaker. It is the ability to recognize skillful practice</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has technical connoisseurship of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000226 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000226">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000224"/>
+        <obo:IAO_0000115>Downward discrimination is judgment being in a domain where though the judge&apos;s expertise in the domain is low, those under judgment have a recognizably lower level of expertise.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has downwards discrimination towards</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000227 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000227">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000224"/>
+        <obo:IAO_0000115>Referred expertise is expertise taken from one field and indirectly applied to another. For instance, a project manager may not need contributory expertise in the domain of their project, but may instead call upon their contributory expertise from work in a different domain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has referred expertise of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000228 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000228">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000154"/>
+        <obo:IAO_0000115>Meta-criteria are those characteristics which outsiders may use to separate the envelope of those who are potential judges from those who fall outside that envelope.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has meta-criteria of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000229 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000229">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000228"/>
+        <obo:IAO_0000115>A credential is a marker of expertise such as a certificate attesting to past performance or proficiency.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has credential in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000230 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000230">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000228"/>
+        <obo:IAO_0000115>Experience describes the history of contributing to or interacting within a technical domain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has experience in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000231 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000231">
+        <rdfs:subPropertyOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000228"/>
+        <obo:IAO_0000115>A track record is a record of success in making sound judgments.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T22:29:47Z</dc:date>
+        <dc:source>Collins, Harry, and Robert Evans. 2007. Rethinking Expertise. Chicago: University of Chicago Press. http://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=408441.</dc:source>
+        <rdfs:label>has track record of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_agent -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_agent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">has agent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#hasMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#hasMember">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/org#</obo:IAO_0000412>
+        <rdfs:comment xml:lang="it">Indica una persona che è membro della data Organization. È l&apos;inverso di `org:memberOf` ed è fornita per  compatibilità con `foaf:member`.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates a person who is a member of the subject Organization. Inverse of `org:memberOf`, see that property for further clarification. Provided for compatibility with `foaf:member`.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique une personne membre de l&apos;Organisation sujet. Inverse de `org:memberOf`, voyez la description de cette propriété pour plus de précisions. Fourni pour la compatibilité avec `foaf:member`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Persona que es miembro de la organización en cuestión. Es la relación inversa de `org:memberOf`, véase la descripción de esa propiedad para más detalles. Se prevé compatibilidad con foaf:member`.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">対象組織のメンバーであるエージェント（人または他の組織）を示します。org:memberOfの逆。さらに明確な説明については、そのプロパティーを参照してください。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="it">ha membro</rdfs:label>
+        <rdfs:label xml:lang="en">has member</rdfs:label>
+        <rdfs:label xml:lang="fr">possède un membre</rdfs:label>
+        <rdfs:label xml:lang="es">tiene miembro</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#hasSubOrganization -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#hasSubOrganization">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/org#</obo:IAO_0000412>
+        <rdfs:comment xml:lang="fr">Indique le statut de dépendance hiérarchique pour des Organisations ou des Unités Opérationnelles; indique une Organisation qui est une sous-partie ou une branche d&apos;une Organisation plus large. C&apos;est la propriété inverse de `org:subOrganizationOf`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Organización jerárquica de organizaciones o unidades. Indica que una organización es parte de otra organización más amplia o pertenece a ella. Es la relación inversa de `org:subOrganizationOf`.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Rappresenta un contenimento gerarchico di una Organization o di una OrganizationalUnit. Indica una organizzazione che è parte di una organizzazione più grande. È l&apos;inverso di `org:subOrganizationOf`.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Represents hierarchical containment of Organizations or Organizational Units; indicates an organization which is a sub-part or child of this organization.  Inverse of `org:subOrganizationOf`.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">組織または組織単位の階層的包含を表わします。この組織のサブパートまたは子である組織を示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="fr">a une Sous-Organization</rdfs:label>
+        <rdfs:label xml:lang="it">ha sotto-Organization</rdfs:label>
+        <rdfs:label xml:lang="en">has SubOrganization</rdfs:label>
+        <rdfs:label xml:lang="es">tiene suborganización</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#hasUnit -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#hasUnit">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/org#</obo:IAO_0000412>
+        <rdfs:comment xml:lang="it">Indica un&apos;unità che è parte di questa Organization, come ad esempio un dipartimento facente parte di una più ampia FormalOrganization. È l&apos;inverso di `org:unitOf`.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates a unit which is part of this Organization, e.g. a Department within a larger FormalOrganization. Inverse of `org:unitOf`.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique une Unité qui fait partie d&apos;une Organisation, par exemple un Départment au sein d&apos;une Organisation Formelle plus large. Inverse de `org:unitOf`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Unidad que es parte de la organización, como, por ejemplo, un departamento incluido en una organización formal más amplia.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">例えば、より大きな組織内の部局など、この組織の一部である単位を示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">contiene unidad</rdfs:label>
+        <rdfs:label xml:lang="it">ha Unit</rdfs:label>
+        <rdfs:label xml:lang="en">has Unit</rdfs:label>
+        <rdfs:label xml:lang="fr">possède une Unité</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#linkedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#linkedTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/org#</obo:IAO_0000412>
+        <rdfs:comment xml:lang="ja">2つの組織の任意の関係を示します。</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica una relazione arbitraria tra due organizzazioni. Ad esempio, specializzazioni di questa proprietà possono essere usate per denotare relazioni particolari tipo il finanziamento o la fornitura.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates an arbitrary relationship between two organizations. Specializations of this can be used to, for example, denote funding or supply chain relationships.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique une relation arbitraire entre deux Organisations. Des spécialisations peuvent être utilisées pour, par exemple, qualifier une relation de fournisseur ou de financeur.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Relación arbitraria entre dos organizaciones. Las especializaciones de esta relación se pueden utilizar para denotar relaciones de financiación o suministro, entre otras.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="it">collegato a</rdfs:label>
+        <rdfs:label xml:lang="es">está relacionada con</rdfs:label>
+        <rdfs:label xml:lang="es">está relacionado con</rdfs:label>
+        <rdfs:label xml:lang="en">linked to</rdfs:label>
+        <rdfs:label xml:lang="fr">relié à</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#member -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#member">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/org#</obo:IAO_0000412>
+        <rdfs:comment xml:lang="it">Indica la Person (o un altro Agent) coinvolto in una relazione di Membership. È l&apos;inverso di `org:hasMembership`.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates the Person (or other Agent including Organization) involved in the Membership relationship. Inverse of `org:hasMembership`</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique une personne (ou tout autre Agent, y compris une Organisation) impliqué dans la relation d&apos;Engagement. Inverse de `org:hasMembership`</rdfs:comment>
+        <rdfs:comment xml:lang="es">Persona (u otro agente, incluyendo una organización) que participa en la relación de membresía. Es la relación inversa de `org:hasMembership`.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">構成員関係に含まれている人（または、組織を含んでいる他のエージェント）を示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">es condición de miembro sobre agente</rdfs:label>
+        <rdfs:label xml:lang="en">member</rdfs:label>
+        <rdfs:label xml:lang="fr">membre</rdfs:label>
+        <rdfs:label xml:lang="it">membro</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#memberOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#memberOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/org#</obo:IAO_0000412>
+        <rdfs:comment xml:lang="it">Indica che una persona è membro di una Organization senza una precisa indicazione sulla natura di questa appartenenza e sul suo ruolo. Si noti che la scelta del nome di questa proprietà non intende limitarla alla sola  rappresentazione formalmente di un&apos;appartenenza. La proprietà può coprire anche altri coinvolgimenti nell&apos;organizzazione. Questa proprietà può essere specializzata per indicare ruoli all&apos;interno organizzazione o relazioni di diverse tipologie. Ha `org:hasmember` come proprietà inversa opzionale.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates that a person is a member of the Organization with no indication of the nature of that membership or the role played. Note that the choice of property name is not meant to limit the property to only formal membership arrangements, it is also indended to cover related concepts such as affilliation or other involvement in the organization. Extensions can specialize this relationship to indicate particular roles within the organization or more nuanced relationships to the organization. Has an optional inverse, `org:hasmember`.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique qu&apos;une personne est membre de l&apos;Organisation sans précision sur la nature de cet engagement ou du rôle joué. Notez que le choix du nom de cette propriété ne vise pas à la limiter aux seuls engagements formels, elle peut également couvrir des concepts reliés comme l&apos;affiliation ou le bénévolat. Des extensions peuvent spécialiser cette relation pour indiquer des rôles particuliers au sein de l&apos;Organisation or des relations plus nuancées avec elle. Possède une propriété inverse optionnelle, `org:hasmember`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Persona que pertenece a la organización o es miembro de la misma, sin que conste la naturaleza de dicha pertenencia o el papel que desempeña. Se debe tener en cuenta que la elección de una denominación para esta propiedad no significa que la propiedad esté limitada a ciertos tipos de pertenencia formales, sino que pretende cubrir conceptos relacionados como el de afiliación u otras formas de participación en la organización. Se puede hacer uso de extensiones para especializar esta relación de forma que incluya tipos específicos de pertenencia a las organizaciones o relaciones especiales con la organización.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">エージェント（人または他の組織）が組織のメンバーであることを示します。ただし、その構成員の本質や担う役割は示しません。プロパティー名の選択は、プロパティーを正式な構成員配置のみに制限することが目的ではないことに注意してください。所属や組織へのその他の関与などの関連する概念をカバーすることも意図されています。拡張により、この関係を特殊化し、組織内の特定の役割やよりニュアンスを含んだ組織との関係を示すことができます。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">es miembro de</rdfs:label>
+        <rdfs:label xml:lang="en">member of</rdfs:label>
+        <rdfs:label xml:lang="fr">membre de</rdfs:label>
+        <rdfs:label xml:lang="it">membro di</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#subOrganizationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#subOrganizationOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/org#</obo:IAO_0000412>
+        <rdfs:comment xml:lang="es">Distribución jerárquica de organizaciones o unidades. Indica que una organización contiene a otra organización. Es la relación inversa de `org:hasSubOrganization`</rdfs:comment>
+        <rdfs:comment xml:lang="it">Rappresenta un contenimento gerarchico di una Organization o di una OrganizationalUnit. È l&apos;inverso di `org:hasSubOrganization`. Ha nome come nome alternativo hasSubOrg.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Represents hierarchical containment of Organizations or OrganizationalUnits; indicates an Organization which contains this Organization. Inverse of `org:hasSubOrganization`.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Représente une relation hierarchique des Organisations ou des Unités Opérationnelles; indique une Organisation sujet qui contient cette Organisation. Inverse de `org:hasSubOrganization`.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">組織または組織単位の階層的包含を表わします。この組織を含む組織を示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">es suborganización de</rdfs:label>
+        <rdfs:label xml:lang="it">sotto-Organization di</rdfs:label>
+        <rdfs:label xml:lang="fr">sous-Organization de</rdfs:label>
+        <rdfs:label xml:lang="en">subOrganization of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#unitOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#unitOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/org#</obo:IAO_0000412>
+        <rdfs:comment xml:lang="it">Indica un Organization di cui questa Unit fa parte, come ad esempio un dipartimento all&apos;interno di una più vasta FormalOrganization. È l&apos;inverso di `org:hasUnit`.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates an Organization of which this Unit is a part, e.g. a Department within a larger FormalOrganization. This is the inverse of `org:hasUnit`.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique l&apos;Organisation dont cette Organisation ou Unité fait partie, par exemple un Départment au sein d&apos;une Organisation Formelle plus large. Inverse de `org:hasUnit`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Organización de la que es parte esta unidad, por ejemplo, un departamento incluido en una organización formal más amplia.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">例えば、より大きな組織内の部局など、この単位がその一部分である組織を示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">es unidad de</rdfs:label>
+        <rdfs:label xml:lang="en">unit Of</rdfs:label>
+        <rdfs:label xml:lang="it">unità di</rdfs:label>
+        <rdfs:label xml:lang="fr">unité de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/mbox">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/</obo:IAO_0000412>
+        <rdfs:comment>A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a &apos;static inverse functional property&apos;, in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>personal mailbox</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/phone -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/phone">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/</obo:IAO_0000412>
+        <rdfs:comment>A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>phone</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/topic_interest -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/topic_interest">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/</obo:IAO_0000412>
+        <rdfs:comment>A thing of interest to this person.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>topic_interest</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
+        <terms:description xml:lang="en">Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF].</terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#dateT-001"/>
+        <rdfs:comment xml:lang="en">A point or period of time associated with an event in the lifecycle of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/identifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
+        <terms:description xml:lang="en">Recommended best practice is to identify the resource by means of a string conforming to a formal identification system. </terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#identifierT-001"/>
+        <rdfs:comment xml:lang="en">An unambiguous reference to the resource within a given context.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Identifier</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/source">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#sourceT-001"/>
+        <rdfs:comment xml:lang="en">A related resource from which the described resource is derived.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Source</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#titleT-002"/>
+        <rdfs:comment xml:lang="en">A name given to the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/firstName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/</obo:IAO_0000412>
+        <rdfs:comment>The first name of a person.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>firstName</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/lastName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/lastName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/</obo:IAO_0000412>
+        <rdfs:comment>The last name of a person.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>lastName</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://asi.ice.ucdavis.edu/sustsource/schemas/ppod.owl#PPOD_000235 -->
+
+    <owl:Class rdf:about="http://asi.ice.ucdavis.edu/sustsource/schemas/ppod.owl#PPOD_000235">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-29T21:40:24Z</dc:date>
+        <rdfs:label>Consultancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://asi.ice.ucdavis.edu/sustsource/schemas/ppod.owl#PPOD_000236 -->
+
+    <owl:Class rdf:about="http://asi.ice.ucdavis.edu/sustsource/schemas/ppod.owl#PPOD_000236">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-29T21:41:21Z</dc:date>
+        <rdfs:label>Media Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://asi.ice.ucdavis.edu/sustsource/schemas/ppod.owl#PPOD_000237 -->
+
+    <owl:Class rdf:about="http://asi.ice.ucdavis.edu/sustsource/schemas/ppod.owl#PPOD_000237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-29T21:52:51Z</dc:date>
+        <rdfs:label>Commodity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dev.poderopedia.com/vocab/Sector -->
+
+    <owl:Class rdf:about="http://dev.poderopedia.com/vocab/Sector">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dev.poderopedia.com/vocab/schema</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Sector</rdfs:label>
+        <rdfs:label xml:lang="es">Sector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000014">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Project"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A project to study the role of a specific protein in cell signaling.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A funded collection of investigations as described in a research proposal.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maybe SameAs &quot;Investigation&quot; but is the subject of funding</rdfs:comment>
+        <rdfs:label>Research Project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0000565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000565">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technology Transfer Office</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organization that provides services for commercialization and licensing of technologies at an institution.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Nicole Vasilevsky</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Nicole Vasilevsky</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technology Transfer Office</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">geographical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000370"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">geographical feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000370"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">geographical region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000111 xml:lang="en">information content entity</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Examples of information content entites include journal articles, data, graphical layouts, and graphs.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most general classification of an information resource</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">an information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">information_content_entity &apos;is_encoded_in&apos; some digital_entity in obi before split (040907). information_content_entity &apos;is_encoded_in&apos; some physical_document in obi before split (040907).
+
+Previous. An information content entity is a non-realizable information entity that &apos;is encoded in&apos; some digital or physical entity.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000142</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Information Content Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000835">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person or organization that has a manufacturer role</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Manufacturer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Document -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/Document">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000111 xml:lang="en">document</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">A journal article, patent application, laboratory notebook, or a book</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short Definition from the bibo ontology</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bounded physical representation of a body of information designed with the capacity (and usually intent) to communicate</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A collection of information content entities intended to be understood together as a whole</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Lawrence Hunter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">A document (noun) is a bounded physical representation of body of information designed with the capacity (and usually intent) to communicate. A document may manifest symbolic, diagrammatic or sensory-representational information.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
+        <rdfs:label>Document</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#AcademicDepartment -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#AcademicDepartment">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endodontics (department within a College of Dentistry); English (department within a College of Liberal Arts)</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A distinct, usually specialized educational unit within an educational organization.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Academic Department</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Association -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Association">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special Libraries Association; Association for Computing Machinery(ACM); American Medical Informatics Association(AMIA)</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A formal organization of people or groups of people around a subject or practice.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of persons or organizations organized for a common purpose.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Association</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Center -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Center">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alchohol Education Center; Center for Arts and Public Policy; Hearing Research Center</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short Definition take from http://www.thefreedictionary.com/center.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A place where a particular activity or service is concentrated.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organization where a specified activity is concentrated.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Center</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#College -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#College">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College of Arts &amp; Sciences; Ivy Tech Community College</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A primary academic unit within a University or a free-standing higher education organization without graduate degree programs</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A primary academic unit within a University or a free-standing higher education organization without graduate degree programs.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>College</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Committee -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Committee">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curriculum Steering Committee; PhD Advisory Committee</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There could be many subclasses such as thesis committee or tenure committee, but these may typically be differentiated via the moniker unless distinct properties become important.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of people organized for a specific purpose (e.g., a reporting or advisory role), often with a charge and for a specific duration</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of people organized for a specific purpose, whose members are often selected from a larger group to serve for designated periods of time.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Committee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Company -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Company">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">from Wikipedia: &quot;A company is a form of business organization. It is an association or collection of individual real persons and/or other companies ... This collection, group or association of persons can be made to exist in law and then a company is itself considered a &quot;legal person&quot;. The name company arose because, at least originally, it represented or was owned by more than one real or legal person.&quot;</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A legally-recognized business organization</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A legally-recognized business organization.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Company</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Consortium -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Consortium">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Committee on Institutional Cooperation (CIC); The Five Colleges of Ohio</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group  of independent organizations working together toward a common goal, under an expressed agreement.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Consortium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Dataset -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Dataset">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">US Patent Data; US Job Data</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A named collection of data, usually containing only one type of data</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Dataset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Department -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Department">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition modified from the definition here: http://dictionary.reference.com/browse/department. It is difficult to tell the difference between and department and a division.</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legal (department within a company); Use for any non-academic department</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit within a larger organization that addresses a specific subject or area of activity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Department</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Division -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Division">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardiovascular Medicine (division within medicine)</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition modified from http://www.thefreedictionary.com/division.  It is difficult to tell the difference between a division and a department.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A major unit or section within a larger organization.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Division</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#EmeritusFaculty -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#EmeritusFaculty">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A retired faculty member who has retained their rank, title and privileges.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Faculty Member Emeritus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#EmeritusLibrarian -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#EmeritusLibrarian">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A retired librarian who has retained their rank, title and privileges.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Librarian Emeritus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#ExtensionUnit -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#ExtensionUnit">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alachua County Extension Office</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit devoted primarily to extension activities, whether for outreach or research</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit devoted primarily to extension activities, whether for outreach or research.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Extension Unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#FacultyMember -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#FacultyMember">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person with at least one academic appointment to a specific faculty of a university or institution of higher learning.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition from here: http://research.carleton.ca/htr/defs.php.</vitro:descriptionAnnot>
+        <rdfs:label>Faculty Member</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Foundation -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Foundation">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition take from: http://dictionary.reference.com/browse/foundation.</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Ford Foundation</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An institution founded with an endowment to support educational, research, artistic or other charitable activities.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Foundation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#FundingOrganization -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#FundingOrganization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National Institute of Health (NIH)</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A defined class of organizations that fund Grants</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organization that provides financial support to individuals or organizations to carry out specified activities.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Funding Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#GovernmentAgency -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#GovernmentAgency">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition take from: http://en.wikipedia.org/wiki/Government_agency.</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United States Library of Congress</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit of government responsible for oversight and regulation of certain activities or the administration and provision of specific services.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Government Agency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#GraduateStudent -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#GraduateStudent">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Student"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person who has already received a bachelor&apos;s degree and is working toward a Master&apos;s or Doctoral degree.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Graduate Student</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Hospital -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Hospital">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition take from: http://dictionary.reference.com/browse/hospital.</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shands at the University of Florida</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An institution that provides medical, surgical, psychiatric or nursing care.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Hospital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Institute -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Institute">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Institute for Fundamental Theory</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Institute normally has a research focus but may also fulfill instructional or outreach roles</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organization founded to pursue or promote certain research, educational or public policy interests or activities.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Institute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Laboratory -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Laboratory">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organization unit that facilitates or conduits observation, testing, experimentation, or research in a field of study or practice.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organizational unit (as opposed to the physical facility) that performs research, provides services, or processes materials</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Laboratory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Librarian -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Librarian">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person working in a position of librarian or information professional, or academic or technical expert in support of providing information services or materials.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Librarian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Library -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Library">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marston Science Library</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used information from this definition: http://dictionary.reference.com/browse/library.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organization maintaining one or more collections of physical and/or electronic information resources for access or lending.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Library</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Museum -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Museum">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition was take from here:  http://dictionary.reference.com/browse/museum</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Getty Museum</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organization devoted to the acquisition, conservation, study, exhibition, and educational interpretation of objects having scientific, historical, cultural or artistic value.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Museum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#NonAcademic -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#NonAcademic">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person holding a position that is not considered to be an academic appointment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Non-Academic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#NonFacultyAcademicPosition -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#NonFacultyAcademicPosition">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Researcher; Academic Extension Associate; Postdoctoral Associate</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Those positions are held by people who do academic work but do not have faculty positions in universities or institutes.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A position involving academic work but without faculty status</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Non-Faculty Academic Position</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#PrivateCompany -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#PrivateCompany">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Company"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition obtained here: http://answers.ask.com/Business/Finance/what_is_a_private_company.  Examples of private companies found here: http://www.forbes.com/2008/11/03/largest-private-companies-biz-privates08-cx_sr_1103private_land.html</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Publix Super Markets; Ernst &amp; Young; PricewaterhouseCoopers</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A private company is one that is privately-owned, and thus, is not publicly-traded in the stock market. Members of the general public cannot purchase stock in a private company unless that company chooses to go public and become a public company.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Private Company</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Program -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Program">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cornell graduate field (http://vivo.cornell.edu/index.jsp?home=65535&amp;collection=820)</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ongoing academic initiative not formalized with department or division status.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Project -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Project">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An endeavor, frequently collaborative, that occurs over a finite period of time and is intended to achieve a particular aim.
+</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An endeavor, frequently collaborative, that occurs over a finite period of time and is intended to achieve a particular aim.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Publisher -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Publisher">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition found here: http://dictionary.reference.com/browse/publisher</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elsevier; Harper &amp; Row; Indiana University Press</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person or company whose business is the publishing of books, periodicals, engravings, computer software, etc.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Publisher</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#ResearchOrganization -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#ResearchOrganization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any organization (likely also asserted as another class of Organization) with a primary, ongoing research function, not just through occasional roles</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Research Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#School -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#School">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition take from here: http://dictionary.reference.com/browse/school.</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">School of Architecture; School of Music</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An institution for instruction in a particular skill or field.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>School</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Student -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Student">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Use only if no specific subclasses of core:Student describe the person.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person who is enrolled in an educational institution.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Student</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#StudentOrganization -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#StudentOrganization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dancin&apos; Gators</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition take from here: http://en.wikipedia.org/wiki/Student_society</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A student organization is an organization, operated by students at a university, whose membership normally consists only of students.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Student Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Team -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Team">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIVO Outreach Team; VIVO Ontology Team</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of people working together.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An informal organization brought together for the purposes of a project or event</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Team</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#UndergraduateStudent -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#UndergraduateStudent">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Student"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person registered in an undergraduate program leading to a bachelor&apos;s degree or an undergraduate diploma or certificate.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>Undergraduate Student</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#University -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#University">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition taken from: http://en.wikipedia.org/wiki/University</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Florida; Washington University in St. Louis</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An institution of higher education and research, which grants academic degrees in a variety of subjects, and provides both undergraduate education and postgraduate education.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:label>University</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#AgriculturalExtensionOrganization -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#AgriculturalExtensionOrganization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:comment>Organizations of this type work in extension services, advisory services, information services.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>Agricultural Extension Agency@en</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#AgriculturalResearchInstitute -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#AgriculturalResearchInstitute">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Institute"/>
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#ResearchOrganization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:comment>Institutions of this type include national agricultural research Institutes, research Institutions. This type doesn&apos;t include international research centers or research organizations.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>Agricultural Research Institute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#CivilSocietyOrganization -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#CivilSocietyOrganization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:comment>Synonyms in data sources: Civil society, CSOs, Consumers</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>Civil Society Organization@en</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#EducationalInstitution -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#EducationalInstitution">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:comment>Universities, coleges, schools, training centers belong to this type of Institution.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>Educational Institution@en</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#FarmersOrganization -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#FarmersOrganization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>Farmers’ Organization@en</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#Forum -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#Forum">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>Forum@en</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#GovernmentalOrganization -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#GovernmentalOrganization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:comment>For the moment, also &quot;public&quot; Institution fall under this category. Create a separate &quot;Public sector&quot; class?</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>Governmental and Inter-Governmental organization@en</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#InternationalOrganization -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#InternationalOrganization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>International Organization@en</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#Network -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#Network">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>Network@en</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#NonGovernmentalOrganization -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#NonGovernmentalOrganization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>Non-Governmental Organization@en</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#Platform -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#Platform">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Project"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>Platform@en</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#PrivateSector -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#PrivateSector">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>Private Sector@en</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agriprofiles.net/ontology/agrivivo#RegionalSubRegionalOrganization -->
+
+    <owl:Class rdf:about="http://www.agriprofiles.net/ontology/agrivivo#RegionalSubRegionalOrganization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agriprofiles.net/ontology/agrivivo</obo:IAO_0000412>
+        <rdfs:isDefinedBy rdf:resource="http://www.agriprofiles.net/ontology/agrivivo"/>
+        <rdfs:label>Regional / Sub-Regional Organization@en</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000022 -->
+
+    <owl:Class rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000022">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <rdfs:label>Stakeholder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000023 -->
+
+    <owl:Class rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000023">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <rdfs:label>Audience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000024 -->
+
+    <owl:Class rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000024">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <rdfs:label>Institutional network</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000137 -->
+
+    <owl:Class rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000137">
+        <rdfs:subClassOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000024"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <rdfs:label>Volunteer network</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000140 -->
+
+    <owl:Class rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000140">
+        <rdfs:subClassOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000024"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <rdfs:label>Ad-hoc working group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000141 -->
+
+    <owl:Class rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000141">
+        <rdfs:subClassOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000024"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <rdfs:label>4-H and youth programs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000142 -->
+
+    <owl:Class rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000142">
+        <rdfs:subClassOf rdf:resource="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000024"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <rdfs:label>Education network</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000145 -->
+
+    <owl:Class rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000145">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <rdfs:label>Institution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000155 -->
+
+    <owl:Class rdf:about="http://www.ic-foods.org/ontologies/expertise.owl#EEXP_000155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>A desirable quality in one&apos;s work practices.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-15T22:01:59Z</dc:date>
+        <rdfs:label>Competency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="en">Concept</rdfs:label>
+        <skos:definition xml:lang="en">An idea or notion; a unit of thought.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ic-foods.org/ontologies/expertise.owl</obo:IAO_0000412>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="en">Concept Scheme</rdfs:label>
+        <skos:definition xml:lang="en">A set of concepts, optionally including statements about semantic relationships between those concepts.</skos:definition>
+        <skos:example xml:lang="en">Thesauri, classification schemes, subject heading lists, taxonomies, &apos;folksonomies&apos;, and other types of controlled vocabulary are all examples of concept schemes. Concept schemes are also embedded in glossaries and terminologies.</skos:example>
+        <skos:scopeNote xml:lang="en">A concept scheme may be defined to include concepts from different sources.</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agent</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">see: http://xmlns.com/foaf/spec/#term_Agent</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agents are things that do stuff</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Things that do stuff.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Scott Hoffmann</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An agent</rdfs:comment>
+        <rdfs:label>Agent</rdfs:label>
+        <skos:scopeNote xml:lang="en">Used to describe any &quot;agent&quot; related to bibliographic items. Such agents can be persons, organizations or groups of any kind.</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Group -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Group">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">group</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group can also be an organization but need not be; typically used for looser associations of people or organizations acting together in some fashion, not necessarily through formal agreement or on a long-term basis. Added to the VIVO ontology to be able to support informal and perhaps even private groups of people around an idea, funding opportunity, or event.
+
+see: http://xmlns.com/foaf/spec/#term_Group</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> A collection of individual agents (and may itself play the role of a Agent, ie. something that can perform actions). </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collection of individual agents.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Scott Hoffmann</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group</rdfs:comment>
+        <rdfs:label>Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organization</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Only use if no specific subclasses of foaf:organization desribe the organization.</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class will display all the instances in the subclasses below it, as well as any organizations that were added as part of this generic class because there wasn&apos;t a specific class available.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A generic class encompassing several types of organizations.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A kind of Agent corresponding to social instititutions such as companies, societies etc.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Scott Hoffmann</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organization</rdfs:comment>
+        <rdfs:label>Organization</rdfs:label>
+        <skos:scopeNote xml:lang="en">Ued to describe an organization related to bibliographic items such as a publishing company, etc.</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">person</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of a human being (Homo sapiens)</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most general classification of a person</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vivoweb.org/ontology/core</obo:IAO_0000412>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person</rdfs:comment>
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.org/dc/terms/description">
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/aeo.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Description</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#descriptionT-001"/>
+        <rdfs:comment xml:lang="en">An account of the resource.</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
